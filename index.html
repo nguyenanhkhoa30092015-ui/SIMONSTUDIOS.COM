@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIMON STUDIO — Trang chủ</title>
+  <meta name="description" content="SIMON STUDIO — Nhà phát triển game. Xem trò chơi của chúng tôi, tìm hiểu về studio và liên hệ.">
+  <meta name="author" content="SIMON STUDIO">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <style>
+    :root{--accent:#0ea5a4;--bg:#0f172a;--card:#0b1220;--muted:#94a3b8;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial}
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#071024 0%, #071025 100%);color:#e6eef8;font-family:var(--font, Inter),sans-serif;line-height:1.5}
+    header{backdrop-filter:blur(6px);position:sticky;top:0;z-index:40;background:rgba(4,6,12,0.45);border-bottom:1px solid rgba(255,255,255,0.03)}
+    .container{max-width:1100px;margin:0 auto;padding:28px}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:46px;height:46px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#2563eb);display:flex;align-items:center;justify-content:center;font-weight:700}
+    .logo span{font-size:20px}
+    .navlinks{display:flex;gap:14px;align-items:center}
+    .navlinks a{color:inherit;text-decoration:none;padding:8px 12px;border-radius:8px;font-weight:600}
+    .navlinks a:hover{background:rgba(255,255,255,0.03)}
+    .cta{background:var(--accent);color:#022;padding:8px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+    main{padding:48px 0}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center}
+    .hero h1{font-size:36px;margin:0 0 10px}
+    .lead{color:var(--muted);margin-bottom:18px}
+    .actions{display:flex;gap:12px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));padding:18px;border-radius:14px;border:1px solid rgba(255,255,255,0.03)}
+    .game-card{display:flex;flex-direction:column;gap:12px}
+    .game-thumb{height:200px;border-radius:10px;background:linear-gradient(120deg,#0ea5a4,#2563eb);display:flex;align-items:center;justify-content:center;font-weight:800;color:#001;letter-spacing:1px}
+    .meta{display:flex;gap:10px;align-items:center;color:var(--muted);font-size:13px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    section{margin-top:36px}
+    .about p{color:var(--muted)}
+    .contact-grid{display:grid;grid-template-columns:1fr 360px;gap:18px}
+    form label{display:block;font-weight:700;margin-bottom:6px}
+    input,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
+    button{background:var(--accent);border:none;padding:10px 14px;border-radius:10px;font-weight:700;cursor:pointer}
+    footer{padding:26px 0;color:var(--muted);font-size:13px;text-align:center}
+    /* responsive */
+    @media (max-width:900px){.hero{grid-template-columns:1fr;}.contact-grid{grid-template-columns:1fr}.grid-3{grid-template-columns:1fr 1fr}.navlinks{display:none}}
+  </style>
+  <script type="application/ld+json">{
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"SIMON STUDIO",
+    "email":"simonstudios75@gmail.com",
+    "url":"",
+    "sameAs":[]
+  }</script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">
+          <div class="logo"><span>S</span></div>
+          <div>
+            <div style="font-weight:800">SIMON STUDIO</div>
+            <div style="font-size:12px;color:var(--muted)">Game Studio • Nhà phát triển game</div>
+          </div>
+        </div>
+        <div class="navlinks">
+          <a href="#home">Trang chủ</a>
+          <a href="#games">Trò chơi của chúng tôi</a>
+          <a href="#about">Về chúng tôi</a>
+          <a href="#contact">Liên hệ</a>
+          <a class="cta" href="#games">Chơi ngay</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <div>
+        <h1>SIMON STUDIO — Chúng tôi tạo ra trò chơi vui nhộn & xã hội</h1>
+        <p class="lead">Chào mừng đến với SIMON STUDIO. Chúng tôi thiết kế và phát triển trò chơi multiplayer nhẹ nhàng, dễ tiếp cận, và đầy năng lượng. Tìm trò chơi của chúng tôi và tham gia ngay hôm nay.</p>
+        <div class="actions">
+          <a class="cta" href="#games">Xem trò chơi</a>
+          <a style="padding:8px 12px;border-radius:10px;background:rgba(255,255,255,0.03);text-decoration:none;color:inherit;font-weight:700" href="#about">Về chúng tôi</a>
+        </div>
+
+        <div style="margin-top:22px" class="card">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <div>
+              <div style="font-weight:800">Tin mới</div>
+              <div style="color:var(--muted);font-size:13px;margin-top:6px">Noob Arena hiện đang phát triển — cập nhật thường xuyên.</div>
+            </div>
+            <div class="meta">Bản quyền: <strong style="margin-left:6px">Zerath</strong></div>
+          </div>
+        </div>
+      </div>
+
+      <aside>
+        <div class="card game-card">
+          <div class="game-thumb">NOOB ARENA</div>
+          <div>
+            <div style="font-weight:800">Noob Arena</div>
+            <div class="meta">Thể loại: Arena • Multiplayer • Mục tiêu: Sinh tồn & chiến đấu</div>
+            <p style="color:var(--muted);margin-top:10px">Noob Arena là trò chơi chính của SIMON STUDIO — đấu với những Noob khác, săn boss, thu coin và vật phẩm.</p>
+            <div style="display:flex;gap:8px;margin-top:10px">
+              <a class="cta" href="#contact">Liên hệ để chơi</a>
+              <a style="padding:8px 12px;border-radius:8px;background:rgba(255,255,255,0.03);text-decoration:none;color:inherit;font-weight:700" href="#games">Chi tiết</a>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="games">
+      <h2 style="margin:0 0 12px">Trò chơi của chúng tôi</h2>
+      <p class="lead">Danh sách các trò chơi do SIMON STUDIO phát triển hoặc đang trong quá trình phát triển.</p>
+      <div class="grid-3" style="margin-top:16px">
+        <!-- GAME 1 -->
+        <div class="card">
+          <div style="font-weight:800">Noob Arena</div>
+          <div style="color:var(--muted);font-size:13px;margin-top:6px">Một arena vui nhộn nơi người chơi nhập vai Noob, chiến đấu, săn boss mỗi 30 phút để nhận coin và vật phẩm.</div>
+          <div style="margin-top:12px;display:flex;justify-content:space-between;align-items:center">
+            <div style="font-size:13px;color:var(--muted)">Trạng thái: Đang phát triển</div>
+            <a class="cta" href="#contact">Liên hệ</a>
+          </div>
+        </div>
+
+        <!-- Placeholder games -->
+        <div class="card">
+          <div style="font-weight:800">Dự án sắp tới</div>
+          <div style="color:var(--muted);font-size:13px;margin-top:6px">Chúng tôi có nhiều ý tưởng đang ấp ủ. Theo dõi để biết thêm chi tiết.</div>
+          <div style="margin-top:12px;display:flex;justify-content:flex-end"><a style="padding:8px 12px;border-radius:8px;background:rgba(255,255,255,0.03);text-decoration:none;color:inherit;font-weight:700" href="#contact">Đăng ký</a></div>
+        </div>
+
+        <div class="card">
+          <div style="font-weight:800">Mini Game Jam</div>
+          <div style="color:var(--muted);font-size:13px;margin-top:6px">Thử thách làm game trong 48 giờ — sự kiện cộng đồng của chúng tôi.</div>
+          <div style="margin-top:12px;display:flex;justify-content:flex-end"><a style="padding:8px 12px;border-radius:8px;background:rgba(255,255,255,0.03);text-decoration:none;color:inherit;font-weight:700" href="#contact">Tham gia</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Về SIMON STUDIO</h2>
+      <p>SIMON STUDIO là một nhóm phát triển game độc lập tập trung vào trải nghiệm multiplayer đơn giản, gây nghiện và thân thiện với người chơi. Chúng tôi tin vào việc tạo ra trò chơi mà mọi người có thể chơi cùng bạn bè và gia đình.</p>
+      <p style="color:var(--muted)"><strong>Thông tin nhanh:</strong> Quy mô: Nhóm nhỏ • Lĩnh vực: Game indie • Liên hệ: simonstudios75@gmail.com</p>
+    </section>
+
+    <section id="contact">
+      <h2>Liên hệ</h2>
+      <div class="contact-grid">
+        <div class="card">
+          <form onsubmit="handleContact(event)">
+            <label for="name">Tên của bạn</label>
+            <input id="name" name="name" placeholder="Nguyễn Văn A" required>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            <label for="message">Tin nhắn</label>
+            <textarea id="message" name="message" rows="6" placeholder="Viết tin nhắn..." required></textarea>
+            <div style="display:flex;gap:10px;margin-top:12px">
+              <button type="submit">Gửi tin nhắn</button>
+              <a style="padding:10px 12px;border-radius:8px;background:rgba(255,255,255,0.03);text-decoration:none;color:inherit;font-weight:700" href="mailto:simonstudios75@gmail.com">Gửi bằng Email</a>
+            </div>
+          </form>
+        </div>
+        <aside class="card">
+          <div style="font-weight:800">Thông tin liên hệ</div>
+          <div style="color:var(--muted);margin-top:8px">Email: <a href="mailto:simonstudios75@gmail.com" style="color:inherit;text-decoration:underline">simonstudios75@gmail.com</a></div>
+          <div style="color:var(--muted);margin-top:8px">Bản quyền &amp; luật chơi: Nếu bạn phát hiện hack/cheat trong trò chơi, vui lòng báo cáo qua email. Mọi nội dung thuộc bản quyền SIMON STUDIO hoặc chủ sở hữu ghi rõ.</div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> SIMON STUDIO • All rights reserved. <span style="color:var(--muted)">Email: simonstudios75@gmail.com</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    function handleContact(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const msg = document.getElementById('message').value.trim();
+      const subject = encodeURIComponent('Liên hệ từ trang SIMON STUDIO: ' + name);
+      const body = encodeURIComponent('Tên: '+name+'\nEmail: '+email+'\n\n'+msg);
+      window.location.href = `mailto:simonstudios75@gmail.com?subject=${subject}&body=${body}`;
+    }
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',function(e){
+        const target = document.querySelector(this.getAttribute('href'));
+        if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth'});}
+      });
+    });
+  </script>
+</body>
+</html>
+
